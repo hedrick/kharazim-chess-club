@@ -1,0 +1,28 @@
+@import "bootstrap";
+
+body {
+  padding-top: 20px;
+}
+
+.navbar {
+  background-color: #27ae60;
+}
+
+.navbar-brand {
+  color: #fff;
+  &:hover, &:focus {
+    color: #ecf0f1;
+  }
+}
+
+.navbar-nav {
+  >li {
+    > a {
+      color: #fff;
+      &:hover, &:focus {
+        color: #ecf0f1;
+        background-color: transparent;
+      }
+    }
+  }
+}
